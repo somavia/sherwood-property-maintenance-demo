@@ -19,14 +19,13 @@ export const business = {
   },
 
   hero: {
-    image: "/hero-jlb.jpg",
-    imageAlt: "Well-maintained residential lawn and landscaping",
-    eyebrow: "Property Maintenance",
-    headline: "Keep Your Property Looking Its Best.",
-    description:
-      "Family-owned and operated property maintenance serving the Barrie area.",
-  },
-
+  image: "/hero-jlb.jpg",
+  imageAlt: "Well-maintained residential lawn and landscaping",
+  eyebrow: "Property Maintenance & Snow Removal",
+  headline: "Property Care for Every Season.",
+  description:
+    "Family-owned and operated property maintenance and snow removal serving the Barrie area.",
+},
   services: [
     {
       title: "Property Maintenance",
