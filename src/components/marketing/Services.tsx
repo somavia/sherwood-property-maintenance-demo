@@ -11,7 +11,7 @@ export function Services() {
             Services
           </h2>
       <p className="mt-2 text-lg text-muted-foreground">
-          Property maintenance and snow removal for homes and businesses in {business.city}.
+        Year-round property maintenance and snow removal for homes and businesses in {business.city}.
           </p>
         </div>
 
