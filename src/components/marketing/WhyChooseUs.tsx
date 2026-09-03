@@ -35,7 +35,7 @@ export function WhyChooseUs() {
             <Phone className="h-7 w-7 text-primary" />
             <h3 className="mt-5 text-xl font-semibold">Easy to Reach</h3>
             <p className="mt-2 text-muted-foreground">
-              Call directly to discuss lawn care or property maintenance for your property.
+              Call directly to discuss property maintenance or snow removal for your property.
             </p>
           </div>
         </div>
