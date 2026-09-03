@@ -10,7 +10,7 @@ export function WhyChooseUs() {
             Property Care Made Simple
           </h2>
           <p className="mt-3 text-lg text-muted-foreground">
-            Straightforward lawn care and property maintenance in {business.city}.
+            Year-round property maintenance and snow removal in {business.city}.
           </p>
         </div>
 
@@ -25,10 +25,10 @@ export function WhyChooseUs() {
 
           <div className="rounded-2xl border bg-card p-8 shadow-sm">
             <Leaf className="h-7 w-7 text-primary" />
-            <h3 className="mt-5 text-xl font-semibold">Property Focused</h3>
-            <p className="mt-2 text-muted-foreground">
-              Practical lawn care and maintenance focused on keeping your property looking its best.
-            </p>
+            <h3 className="mt-5 text-xl font-semibold">Family Owned</h3>
+<p className="mt-2 text-muted-foreground">
+  A family-owned and operated property maintenance company serving the Barrie area.
+</p>
           </div>
 
           <div className="rounded-2xl border bg-card p-8 shadow-sm">
