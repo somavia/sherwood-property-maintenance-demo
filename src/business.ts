@@ -1,78 +1,78 @@
 export const business = {
-  name: "JLB Property Services",
-  shortName: "JLB Property Services",
+  name: "Sherwood Property Maintenance",
+  shortName: "Sherwood Property Maintenance",
 
-  phone: "(647) 829-6897",
-  phoneHref: "tel:+16478296897",
+  phone: "249-535-3113",
+  phoneHref: "tel:+12495353113",
 
-  city: "Newmarket",
+  city: "Barrie",
   province: "Ontario",
   provinceShort: "ON",
   country: "Canada",
 
   address: {
-    street: "795 Highland Blade Rd",
-    city: "Newmarket",
+    street: "",
+    city: "Barrie",
     province: "ON",
-    postalCode: "L3X 1P2",
+    postalCode: "",
     country: "CA",
   },
 
   hero: {
-  image: "/hero-jlb.jpg",
-  imageAlt: "Well-maintained residential lawn and landscaping",
-  eyebrow: "Lawn Care & Property Services",
-  headline: "A Better Looking Property Starts Here.",
-  description:
-    "Professional lawn care and property services based in Newmarket, Ontario. Keep your outdoor space neat, maintained, and ready to enjoy.",
-},
+    image: "/hero-mkl-v2.jpg",
+    imageAlt: "Well-maintained residential lawn and landscaping",
+    eyebrow: "Property Maintenance",
+    headline: "Keep Your Property Looking Its Best.",
+    description:
+      "Family-owned and operated property maintenance serving the Barrie area.",
+  },
 
   services: [
     {
-      title: "Lawn Care",
-      description:
-        "Routine lawn care to help keep your property looking neat and well maintained.",
-    },
-    {
       title: "Property Maintenance",
       description:
-        "Dependable outdoor property maintenance for homes and properties in the Newmarket area.",
+        "Outdoor property maintenance focused on keeping your property neat, cared for, and looking its best.",
+    },
+    {
+      title: "Lawn & Yard Care",
+      description:
+        "Practical lawn and yard care for residential properties throughout the Barrie area.",
     },
   ],
 
   whyChooseUs: {
     heading: "Property Care Made Simple",
     description:
-      "Straightforward lawn care and property maintenance in Newmarket.",
+      "Straightforward property maintenance from a local Barrie business.",
     items: [
       {
         title: "Local Service",
         description:
-          "Based in Newmarket and ready to help maintain your outdoor property.",
+          "Serving properties throughout Barrie and the surrounding area.",
       },
       {
-        title: "Property Focused",
+        title: "Family Owned",
         description:
-          "Practical lawn care and maintenance services designed around your property.",
+          "A family-owned and operated property maintenance company.",
       },
       {
         title: "Easy to Reach",
         description:
-          "Call directly to discuss lawn care or property maintenance needs.",
+          "Connect by phone, email, Instagram, or Facebook to discuss your property.",
       },
     ],
   },
 
   contact: {
-  intro:
-    "Ready for a better-looking property? Call us to discuss your lawn care or property maintenance needs.",
-  ctaDescription:
-    "Call JLB Property Services to discuss lawn care or property maintenance for your property.",
-},
-  
+    intro:
+      "Need help maintaining your property? Contact Sherwood Property Maintenance to discuss what you need.",
+    ctaDescription:
+      "Call Sherwood Property Maintenance to discuss your property maintenance needs.",
+  },
+
   seo: {
-    title: "JLB Property Services | Newmarket, ON",
+    title: "Sherwood Property Maintenance | Barrie, ON",
     description:
-      "Lawn care and property services in Newmarket, Ontario. Contact JLB Property Services at (647) 829-6897.",
+      "Property maintenance in Barrie, Ontario. Contact Sherwood Property Maintenance at 249-535-3113.",
   },
 };
