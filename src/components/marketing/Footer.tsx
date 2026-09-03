@@ -1,7 +1,14 @@
 import { Leaf, Phone, MapPin } from "lucide-react";
 import { business } from "@/business";
 
-const address = `${business.address.street}, ${business.address.city}, ${business.address.province} ${business.address.postalCode}`;
+const address = [
+  business.address.street,
+  business.address.city,
+  business.address.province,
+  business.address.postalCode,
+]
+  .filter(Boolean)
+  .join(", ");
 const mapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
 
 export function Footer() {
