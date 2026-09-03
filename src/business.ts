@@ -19,7 +19,7 @@ export const business = {
   },
 
   hero: {
-    image: "/hero-mkl-v2.jpg",
+    image: "/hero-jlb.jpg",
     imageAlt: "Well-maintained residential lawn and landscaping",
     eyebrow: "Property Maintenance",
     headline: "Keep Your Property Looking Its Best.",
