@@ -1,4 +1,4 @@
-import { Leaf } from "lucide-react";
+import { Leaf, Snowflake } from "lucide-react";
 import { business } from "@/business";
 
 
@@ -11,7 +11,7 @@ export function Services() {
             Services
           </h2>
       <p className="mt-2 text-lg text-muted-foreground">
-          Lawn care and property maintenance for homes and businesses in {business.city}.
+          Property maintenance and snow removal for homes and businesses in {business.city}.
           </p>
         </div>
 
@@ -22,8 +22,12 @@ export function Services() {
               className="group rounded-2xl border bg-card p-8 shadow-sm transition-shadow hover:shadow-md"
             >
               <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 text-primary">
-              <Leaf className="h-6 w-6" aria-hidden="true" />
-              </div>
+  {index === 0 ? (
+    <Leaf className="h-6 w-6" aria-hidden="true" />
+  ) : (
+    <Snowflake className="h-6 w-6" aria-hidden="true" />
+  )}
+</div>
               <h3 className="mt-6 text-xl font-semibold text-card-foreground">{service.title}</h3>
               <p className="mt-3 text-muted-foreground">{service.description}</p>
             </div>
