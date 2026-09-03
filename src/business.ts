@@ -34,10 +34,10 @@ export const business = {
         "Outdoor property maintenance focused on keeping your property neat, cared for, and looking its best.",
     },
     {
-      title: "Lawn & Yard Care",
-      description:
-        "Practical lawn and yard care for residential properties throughout the Barrie area.",
-    },
+  title: "Snow Removal",
+  description:
+    "Snow removal and plowing services to help keep properties clear throughout the Barrie winter.",
+},
   ],
 
   whyChooseUs: {
